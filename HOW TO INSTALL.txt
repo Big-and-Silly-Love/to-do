@@ -1,0 +1,49 @@
+TO DO APP - HOW TO INSTALL AND UPDATE
+=====================================
+
+WHAT'S IN THIS FOLDER
+  index.html, manifest.json, sw.js, icon-180.png, icon-192.png, icon-512.png  -> the app (upload once)
+  todo.xlsx  -> your to-do list (edit and re-upload whenever it changes)
+
+IMPORTANT - YOUR LIST IS PUBLIC
+  Free GitHub Pages only works with a PUBLIC repository, so anyone who knows (or guesses)
+  the web address can open todo.xlsx. Don't put anything private in it: no passwords,
+  account numbers, addresses, phone numbers, or confidential work details.
+  Your ticks are NOT uploaded - they stay on your phone.
+
+ONE-TIME SET-UP (about 5 minutes, on your computer)
+  1. Sign in at github.com.
+  2. Click + (top right) > New repository. Name it: to-do
+     Choose PUBLIC. Click Create repository.
+  3. Click "uploading an existing file". Drag in ALL 7 files from this folder
+     (including todo.xlsx). Click Commit changes.
+  4. Go to Settings > Pages. Under "Build and deployment", Source: Deploy from a branch,
+     Branch: main, folder: / (root). Click Save.
+  5. Wait 1-2 minutes. Your app is at:  https://<your-github-username>.github.io/to-do/
+
+INSTALL ON YOUR IPHONE
+  1. Open the address above in Safari.
+  2. Tap Share > Add to Home Screen > Add.
+  3. Always open it from the green To Do icon.
+
+UPDATING YOUR LIST (any time)
+  1. Open todo.xlsx in Excel and edit the Tasks tab (see the "How to use" tab).
+  2. Save it - keep the name exactly todo.xlsx and keep it as an Excel workbook (.xlsx).
+  3. On github.com, open your to-do repository > Add file > Upload files.
+     Drag in todo.xlsx (it replaces the old one). Click Commit changes.
+  4. Wait 1-2 minutes, then open the app (or tap the blue refresh button).
+     A message shows how many tasks were added or removed.
+  You can also do step 3 from your iPhone in Safari: github.com > repository > Add file > Upload files.
+
+GOOD TO KNOW
+  - The app checks for a new todo.xlsx each time you open it. With no signal it shows
+    the last list it downloaded.
+  - Ticks are linked to the List + Section + Task name. Renaming a task (or moving it to
+    another list/section) starts it fresh. Changing Qty, Due, Priority, Steps, Notes or
+    Link keeps the ticks.
+  - Steps you add inside the app are saved on your phone only (not in the Excel file).
+  - Back up your ticks now and then: ••• > Backup & restore. Deleting the Home Screen
+    icon deletes its ticks.
+  - Needs iOS 16.4 or later.
+  - The Shot List app can live in the same GitHub account (its own repository); the two
+    don't affect each other.
